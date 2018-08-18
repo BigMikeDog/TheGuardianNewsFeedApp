@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sectionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/section_bottom_margin"
+        android:layout_marginLeft="@dimen/section_left_margin"
+        android:layout_marginStart="@dimen/section_left_margin"
+        android:layout_marginTop="@dimen/section_top_margin"
+        android:textSize="@dimen/section_text_size"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/titleView"
+        app:layout_constraintStart_toStartOf="@+id/titleView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Politics"/>
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/title_bottom_margin"
+        android:layout_marginEnd="@dimen/title_right_margin"
+        android:layout_marginLeft="@dimen/title_left_margin"
+        android:layout_marginRight="@dimen/title_right_margin"
+        android:layout_marginStart="@dimen/title_left_margin"
+        android:layout_marginTop="@dimen/title_top_margin"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dateView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Article Title"/>
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/date_bottom_margin"
+        android:layout_marginEnd="@dimen/date_right_margin"
+        android:layout_marginRight="@dimen/title_right_margin"
+        android:layout_marginTop="@dimen/date_top_margin"
+        android:textSize="@dimen/date_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        tools:text="March 5, 2018"/>
+
+    <TextView
+        android:id="@+id/author_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/author_bottom_margin"
+        android:layout_marginEnd="@dimen/author_right_margin"
+        android:layout_marginRight="@dimen/author_right_margin"
+        android:layout_marginTop="@dimen/author_top_margin"
+        android:textSize="@dimen/author_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="- Brian Holt"/>
+</android.support.constraint.ConstraintLayout>

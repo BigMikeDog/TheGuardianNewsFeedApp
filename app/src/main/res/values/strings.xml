@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TheGuardian News Feed App</string>
+    <string name="no_internet_found">No Internet Connection Found.</string>
+    <string name="empty_list_string">No Articles Were Found!</string>
+    <string name="january_build">Jan.</string>
+    <string name="february_build">Feb.</string>
+    <string name="march_build">Mar.</string>
+    <string name="april_build">Apr.</string>
+    <string name="may_build">May</string>
+    <string name="june_build">Jun.</string>
+    <string name="july_build">Jul.</string>
+    <string name="aug_build">Aug.</string>
+    <string name="september_build">Sep.</string>
+    <string name="october_build">Oct.</string>
+    <string name="november_build">Nov.</string>
+    <string name="december_build">Dec.</string>
+
+    <string name="category_nuclear_energy">Nuclear Energy</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_games">Games</string>
+    <string name="author_prefix">-</string>
+    <string name="no_author">No Author Found.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_articles_to_load_label">Articles To Load</string>
+    <string name="settings_articles_to_load_key" translatable="false">articles_to_load</string>
+    <string name="settings_articles_to_load_default" translatable="false">10</string>
+    <string name="guardian_base_url"><![CDATA[https://content.guardianapis.com/search?api-key=test&show-tags=contributor]]></string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_date_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_date_label">Newest</string>
+    <string name="settings_order_by_date_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Most Relevant</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+</resources>
